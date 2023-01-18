@@ -1,6 +1,6 @@
 import React from 'react'
 
-const MaleProducts = (props) => {
+const Products = (props) => {
   const {img, title, price, stroke, badge, fast} = props.data
   return (
     <div className='w-[300px] sm:w-[200px] md:w-[200px] mt-3 relative' onClick={props.onClick}>
@@ -17,4 +17,4 @@ const MaleProducts = (props) => {
   )
 }
 
-export default MaleProducts
+export default Products

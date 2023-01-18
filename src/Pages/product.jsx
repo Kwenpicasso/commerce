@@ -1,20 +1,21 @@
 import React from 'react'
 import Footer from '../Components/Footer'
 import FooterLast from '../Components/FooterLast'
-import Products from '../Components/Products'
-import AccessoriesHeader from '../Components/AccessoriesHeader'
+import MaleProducts from '../Components/MaleProducts'
+import MenHeader from '../Components/MenHeader'
 import Navbar from '../Components/Navbar'
-import { Access } from '../Data'
+import { Male } from '../Data'
 import { useNavigate } from 'react-router-dom'
-const Accessories = () => {
+
+const Men = () => {
   const navigate = useNavigate()
   return (
     <div className='w-full h-screen'>
         <Navbar/>
-        <AccessoriesHeader/>
+        <MenHeader/>
       <div className='flex justify-around flex-wrap w-[100%] px-10 sm:px-0 md:px-0 py-6'>
-        {Access.map((item) => (
-            <Products onClick={() => navigate(`/productInfo/${item.id}`)} data={item} key={item.id}/>
+        {Male.map((item) => (
+            <MaleProducts onClick={() => navigate(`/productInfo/${item.id}`)} data={item} key={item.id}/>
         ))}
       </div>
       <Footer/>
@@ -24,4 +25,4 @@ const Accessories = () => {
   )
 }
 
-export default Accessories
+export default Men

@@ -1,17 +1,29 @@
-import React, { useState } from 'react'
+import React, { useState, } from 'react'
 import Navbar from '../Components/Navbar'
 import LocalMallIcon from '@mui/icons-material/LocalMall';
 import FooterLast from '../Components/FooterLast';
+import { useParams } from 'react-router-dom';
+import { products } from '../Data';
 
-const APinkProduct = () => {
+const ProductInfo = () => {
     const [pic, setPic] = useState(0)
     const [quantity, setQuantity] = useState(1)
-    const images =[
-        'men1.webp',
-        'Men1s.webp',
-        'Men1sss.webp'
+    
+    // const images =[
+    //     'men1.webp',
+    //     'Men1s.webp',
+    //     'Men1sss.webp'
 
-    ]
+    // ]
+    const { id } = useParams()
+
+    
+    const filteredProduct = products.filter(
+        (p) => p.id === id
+    );
+    var product = filteredProduct[0];
+    
+
   return (
 
   <div className='w-full h-screen'>
@@ -24,28 +36,27 @@ const APinkProduct = () => {
        
        
         <div className="images">
-            <img src={images[0]} alt=""onClick={e=>setPic(0)} />
-            <img src={images[1]} alt="" onClick={e=>setPic(1)}/>
-            <img src={images[2]} alt="" onClick={e=>setPic(2)}/>
+            <img src={product.img[0]} alt=""onClick={e=>setPic(0)} />
+            <img src={product.img[1]} alt="" onClick={e=>setPic(1)}/>
+            <img src={product.img[2]} alt="" onClick={e=>setPic(2)}/>
 
         </div>
         <div className="mainimg">
-            <img src={images[pic]} alt="" />
+            <img src={product.img[pic]} alt="" />
 
         </div>
 
     </div>
     <div className="right m-auto">
-        <h1 className='mb-5 uppercase text-3xl font-semibold text-nav sm:text-center md:text-center'>adidas hoodie in pink</h1>
+        <h1 className='mb-5 uppercase text-3xl font-semibold text-nav sm:text-center md:text-center'>{product.productName}</h1>
         <div className='flex gap-3 text-xl font-semibold mb-5 sm:items-center sm:justify-center md:items-center md:justify-center'>
-        <h2>$100</h2>
+        <h2>{product.price}</h2>
         <h2 className='text-red-300'><strike>$200</strike></h2>
 
         </div>
 
         <p className='text-sm mb-5 sm:text-center md:text-center'>
-        The Varsity Adidas Hoodie flaunts an embroidery of the official emblem in front, which is referenced in this collection to create a classic appearance and finished with tradition masks at the rear.
-
+        {product.productDesc}
         </p>
 
         <div className='bg-back w-[300px] md:w-full sm:w-full p-3 flex mb-5 shadow-lg text-[13px] justify-center items-center flex-col font-extrabold'>
@@ -78,4 +89,4 @@ const APinkProduct = () => {
   )
 }
 
-export default APinkProduct
+export default ProductInfo
