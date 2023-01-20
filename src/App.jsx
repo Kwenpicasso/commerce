@@ -5,6 +5,7 @@ import ProductInfo from "./Pages/productInfo"
 import Accessories from "./Pages/Accessories"
 
 
+
 import { Route, Routes } from "react-router-dom"
 
 

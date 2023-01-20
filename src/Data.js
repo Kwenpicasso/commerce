@@ -22,6 +22,8 @@ import Men3 from './assets/Men3.webp'
 import Men3s from './assets/Men3s.webp'
 import Men3ss from './assets/Men3ss.webp'
 import Men4 from './assets/Men4.webp'
+import Men4s from './assets/men4s.webp'
+import Men4ss from './assets/men4ss.webp'
 import Men5 from './assets/Men5.webp'
 import Men6 from './assets/Men6.webp'
 import Men7 from './assets/Men7.webp'
@@ -220,7 +222,7 @@ export const Male = [
 
     },
     {
-        id: '4',
+        id: '04',
         img: Men4,
         title: 'Silver watch',
         price: '$200',
@@ -228,7 +230,7 @@ export const Male = [
     },
 
     {
-        id: '5',
+        id: '05',
         img: Men5,
         title: 'Adidas velvet shoe',
         price: '$500',
@@ -236,14 +238,14 @@ export const Male = [
         badge: 1
     },
     {
-        id: '6',
+        id: '06',
         img: Men6,
         title: 'Hugo golden watch',
         price: '$500'
     },
 
     {
-        id: '7',
+        id: '07',
         img: Men7,
         title: 'hollister hoodie in wine',
         price: '$100',
@@ -252,7 +254,7 @@ export const Male = [
         fast: true
     },
     {
-        id: '8',
+        id: '08',
         img: Men8,
         title: 'Dr. Martens shoe in white',
         price: '$300',
@@ -261,7 +263,7 @@ export const Male = [
         fast: true
     },
     {
-        id: '9',
+        id: '09',
         img: Men9,
         title: 'chelsea leather boot',
         price: '$300'
@@ -568,6 +570,7 @@ export const products = [
         productDesc: 'The Varsity Adidas Hoodie flaunts an embroidery of the official emblem in front, which is referenced in this collection to create a classic appearance and finished with tradition masks at the rear.',
         category: 'Men',
         price: '$100',
+        strike: '$200',
         img: [Men1, Men1s, Men1sss]
     },
     {
@@ -581,10 +584,28 @@ export const products = [
     {
         id: '03',
         productName: 'Dr.Martens shoe ',
-        productDesc: 'Dr.Martens shoe in Black',
+        productDesc: 'The Varsity Shoe flaunts an embroidery of the official emblem in front, which is referenced in this collection to create a classic appearance and finished with tradition masks at the rear',
         category: 'Men',
         price: '$60',
+        strike: '$100',
         img: [Men3, Men3s, Men3ss]
+    },
+    {
+        id: '04',
+        productName: 'Silver watch ',
+        productDesc: 'The Varsity Silver Watch flaunts an embroidery of the official emblem in front, which is referenced in this collection to create a classic appearance and finished with tradition masks at the rear',
+        category: 'Men',
+        price: '$200',
+        img: [Men4, Men4s, Men4ss]
+    },
+    {
+        id: '05',
+        productName: 'adidas velvet shoe',
+        productDesc: 'The Adudas Velvet Shoe flaunts an embroidery of the official emblem in front, which is referenced in this collection to create a classic appearance and finished with tradition masks at the rear',
+        category: 'Men',
+        price: '$500',
+        strike: '$1000',
+        img: [Men4, Men4s, Men4ss]
     },
     {
         id: '10',
