@@ -6,6 +6,8 @@ import Accessories from "./Pages/Accessories"
 
 
 
+
+
 import { Route, Routes } from "react-router-dom"
 
 
@@ -20,10 +22,11 @@ function App() {
     <Route path="/women" element={<Women/>} />
     <Route path="/accessories" element={<Accessories/>} />
     <Route path="/productInfo/:id" element={<ProductInfo/>} />
-    <Route path="/product/:category" element={<ProductInfo/>} />
+    
     
     
    </Routes>
+  
   )
 }
 
