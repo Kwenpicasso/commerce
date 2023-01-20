@@ -99,23 +99,17 @@ import Acc6 from './assets/acc6.webp'
 import Acc7 from './assets/acc7.webp'
 import Acc8 from './assets/acc8.webp'
 
-
-
-
-
-
-
 export const Categories = [
     {
-        id: 'male',
+        id: 'men',
         img: men,
-        title: 'Men',
+        title: 'Men New',
         btn: 'Shop Now'
     },
     {
-        id: 'access',
+        id: 'accessories',
         img: asset,
-        title: 'Bags and Accessories',
+        title: 'Accessories',
         btn: 'Shop Now'
 
     },
@@ -123,7 +117,7 @@ export const Categories = [
         id: 'women',
         img: women,
         imgTwo: female,
-        title: 'Women',
+        title: 'Women New',
         btn: 'Shop Now'
     }
 ];
@@ -234,486 +228,17 @@ export const Foot = [
     },
 ]
 
-
-
-export const Male = [
-
-    {
-        id: '01',
-        img: Men1,
-        title: 'adidas hoodie in pink',
-        price: '$100',
-        stroke: '$200',
-        badge: 1
-    },
-
-    {
-        id: '02',
-        img: Men2,
-        title: 'cross bag in Green',
-        price: '$20',
-        fast: true
-
-    },
-    {
-        id: '03',
-        img: Men3,
-        title: 'Dr.Martens shoe in Black',
-        price: '$60',
-        stroke: '$100',
-        badge: 1,
-
-    },
-    {
-        id: '04',
-        img: Men4,
-        title: 'Silver watch',
-        price: '$200',
-        fast: true
-    },
-
-    {
-        id: '05',
-        img: Men5,
-        title: 'Adidas velvet shoe',
-        price: '$500',
-        stroke: '$1000',
-        badge: 1
-    },
-    {
-        id: '06',
-        img: Men6,
-        title: 'Hugo golden watch',
-        price: '$500'
-    },
-
-    {
-        id: '07',
-        img: Men7,
-        title: 'hollister hoodie in wine',
-        price: '$100',
-        stroke: '$300',
-        badge: 1,
-        fast: true
-    },
-    {
-        id: '08',
-        img: Men8,
-        title: 'Dr. Martens shoe in white',
-        price: '$300',
-        stroke: '$500',
-        badge: 1,
-        fast: true
-    },
-    {
-        id: '09',
-        img: Men9,
-        title: 'chelsea leather boot',
-        price: '$300'
-    },
-
-    {
-        id: '10',
-        img: Men10,
-        title: 'polo colored shirt',
-        price: '$200',
-        stroke: '$500',
-        badge: 1
-    },
-    {
-        id: '11',
-        img: Men11,
-        title: 'puma shirt in blue',
-        price: '$200',
-        stroke: '$300',
-        badge: 1,
-        fast: true
-    },
-    {
-        id: '12',
-        img: Men12,
-        title: 'calvin klein leather bag',
-        price: '$700',
-        stroke: '$1000',
-        badge: 1
-    }
-]
-
-export const Female = [
-
-    {
-        id: '13',
-        img: Women1,
-        title: 'puma gray hoodie',
-        price: '$200',
-        stroke: '$500',
-        badge: 1
-    },
-    {
-        id: '14',
-        img: Women2,
-        title: 'puma hoodie in white',
-        price: '$200',
-        badge: 1
-    },
-    {
-        id: '15',
-        img: Women3,
-        title: 'alessi strap heel in green',
-        price: '$200',
-        stroke: '$500',
-        fast: true
-    },
-    {
-        id: '16',
-        img: Women4,
-        title: 'double breasted suit in fuschia',
-        price: '$200',
-        badge: 1
-    },
-    {
-        id: '17',
-        img: Women5,
-        title: 'wink green heel sandals',
-        price: '$200',
-        stroke: '$500',
-        badge: 1
-    },
-    {
-        id: '18',
-        img: Women6,
-        title: 'silvered sleek skirt',
-        price: '$200',
-        stroke: '$500',
-        badge: 1,
-        fast: true
-    },
-    {
-        id: '19',
-        img: Women7,
-        title: 'HIIT seamless bra in grey marl',
-        price: '$200',
-        stroke: '$500',
-        badge: 1
-    },
-    {
-        id: '20',
-        img: Women8,
-        title: 'coffee brown sleek dress',
-        price: '$200',
-        stroke: '$500',
-        badge: 1
-    },
-    {
-        id: '21',
-        img: Women9,
-        title: 'puma retaliate trainers in pink',
-        price: '$200',
-        badge: 1,
-        fast: true
-    },
-    {
-        id: '22',
-        img: Women10,
-        title: 'charles keith crossed bag',
-        price: '$200',
-        badge: 1
-    },
-    {
-        id: '23',
-        img: Women11,
-        title: 'sleek multi-colored skirt',
-        price: '$200',
-        stroke: '$500',
-        badge: 1,
-        fast: true
-    },
-    {
-        id: '24',
-        img: Women12,
-        title: 'curve choker necklace with faux',
-        price: '$200',
-        stroke: '$500',
-        badge: 1
-    },
-    {
-        id: '25',
-        img: Women13,
-        title: 'tote bag in mushroom print in black',
-        price: '$200',
-        stroke: '$500',
-        badge: 1,
-        fast: true
-    },
-    {
-        id: '26',
-        img: Women14,
-        title: 'noisy may maxi skirt',
-        price: '$200',
-        stroke: '$500',
-        badge: 1,
-        fast: true
-    },
-    {
-        id: '27',
-        img: Women15,
-        title: 'tiered wrap midi dress',
-        price: '$200',
-        badge: 1
-    },
-    {
-        id: '28',
-        img: Men12,
-        title: 'calvin klein leather bag',
-        price: '$700',
-        stroke: '$1000',
-        badge: 1
-    }
-
-]
-
-export const Access = [
-    {
-        id: '2',
-        img: Men2,
-        title: 'cross bag in Green',
-        price: '$20',
-        fast: true
-
-    },
-    {
-        id: '1',
-        img: Men12,
-        title: 'calvin klein leather bag',
-        price: '$700',
-        stroke: '$1000',
-        badge: 1
-    },
-    {
-        id: '010',
-        img: Women13,
-        title: 'tote bag in mushroom print in black',
-        price: '$200',
-        stroke: '$500',
-        badge: 1,
-        fast: true
-    },
-    {
-        id: '1',
-        img: Women9,
-        title: 'puma retaliate trainers in pink',
-        price: '$200',
-        badge: 1,
-        fast: true
-    },
-    {
-        id: '1',
-        img: Women10,
-        title: 'charles keith crossed bag',
-        price: '$200',
-        badge: 1
-    },
-    {
-        id: '6',
-        img: Men6,
-        title: 'Hugo golden watch',
-        price: '$500'
-    },
-    {
-        id: '4',
-        img: Men4,
-        title: 'Silver watch',
-        price: '$200',
-        fast: true
-    },
-    {
-        id: '1',
-        img: Women12,
-        title: 'curve choker necklace with faux',
-        price: '$200',
-        stroke: '$500',
-        badge: 1
-    },
-    {
-        id: '1',
-        img: Acc1,
-        title: 'square sunglasses in red with smoked lens',
-        price: '$200',
-        stroke: '$500',
-        badge: 1
-    },
-    {
-        id: '1',
-        img: Acc2,
-        title: 'micro rectangle sunglasses in gold',
-        price: '$200',
-        stroke: '$500',
-        badge: 1
-    },
-    {
-        id: '1',
-        img: Acc3,
-        title: 'silver rock earings',
-        price: '$200',
-        stroke: '$500',
-        badge: 1,
-        fast: true
-    },
-    {
-        id: '1',
-        img: Acc4,
-        title: 'cubins golden chain',
-        price: '$200',
-        stroke: '$500',
-        badge: 1
-    },
-    {
-        id: '1',
-        img: Acc5,
-        title: 'storm bracelet in black',
-        price: '$200',
-        stroke: '$500',
-        badge: 1,
-        fast: true
-    },
-    {
-        id: '020',
-        img: Acc6,
-        title: 'north face duffel baf in yellow',
-        price: '$200',
-        stroke: '$500',
-        badge: 1,
-        fast: true
-    },
-    {
-        id: '1',
-        img: Acc7,
-        title: 'new balance duffel bag in red',
-        price: '$200',
-        stroke: '$500',
-        badge: 1,
-
-    },
-    {
-        id: '030',
-        img: Acc8,
-        title: 'cufflinks and tiebar set',
-        price: '$200',
-        stroke: '$500',
-        badge: 1,
-        fast: true
-    },
-
-]
-
 export const products = [
-     {
-        id: '01',
-        img: Men1,
-        title: 'adidas hoodie in pink',
-        price: '$100',
-        stroke: '$200',
-        badge: 1
-    },
-
-    {
-        id: '02',
-        img: Men2,
-        title: 'cross bag in Green',
-        price: '$20',
-        fast: true
-
-    },
-    {
-        id: '03',
-        img: Men3,
-        title: 'Dr.Martens shoe in Black',
-        price: '$60',
-        stroke: '$100',
-        badge: 1,
-
-    },
-    {
-        id: '04',
-        img: Men4,
-        title: 'Silver watch',
-        price: '$200',
-        fast: true
-    },
-
-    {
-        id: '05',
-        img: Men5,
-        title: 'Adidas velvet shoe',
-        price: '$500',
-        stroke: '$1000',
-        badge: 1
-    },
-    {
-        id: '06',
-        img: Men6,
-        title: 'Hugo golden watch',
-        price: '$500'
-    },
-
-    {
-        id: '07',
-        img: Men7,
-        title: 'hollister hoodie in wine',
-        price: '$100',
-        stroke: '$300',
-        badge: 1,
-        fast: true
-    },
-    {
-        id: '08',
-        img: Men8,
-        title: 'Dr. Martens shoe in white',
-        price: '$300',
-        stroke: '$500',
-        badge: 1,
-        fast: true
-    },
-    {
-        id: '09',
-        img: Men9,
-        title: 'chelsea leather boot',
-        price: '$300'
-    },
-
-    {
-        id: '10',
-        img: Men10,
-        title: 'polo colored shirt',
-        price: '$200',
-        stroke: '$500',
-        badge: 1
-    },
-    {
-        id: '11',
-        img: Men11,
-        title: 'puma shirt in blue',
-        price: '$200',
-        stroke: '$300',
-        badge: 1,
-        fast: true
-    },
-    {
-        id: '12',
-        img: Men12,
-        title: 'calvin klein leather bag',
-        price: '$700',
-        stroke: '$1000',
-        badge: 1
-    }
     {
         id: '01',
         productName: 'Adidas Pink Hoodie',
         productDesc: 'The Varsity Adidas Hoodie flaunts an embroidery of the official emblem in front, which is referenced in this collection to create a classic appearance and finished with tradition masks at the rear.',
         category: 'men',
         price: '$100',
-        strike: '$200',
-        img: [Men1, Men1s, Men1sss]
+        stroke: '$200',
+        img: [Men1, Men1s, Men1sss],
+        badge: 1,
+        fast: true,
     },
     {
         id: '02',
@@ -721,7 +246,9 @@ export const products = [
         productDesc: 'The Varsity New Balance crossed bag flaunts an embroidery of the official emblem in front, which is referenced in this collection to create a classic appearance and finished with tradition masks at the rear',
         category: 'men',
         price: '$20',
-        img: [Men2, Men2s, Men2ss]
+        img: [Men2, Men2s, Men2ss],
+        badge: 1,
+        fast: true,
     },
     {
         id: '03',
@@ -729,8 +256,10 @@ export const products = [
         productDesc: 'The Varsity Shoe flaunts an embroidery of the official emblem in front, which is referenced in this collection to create a classic appearance and finished with tradition masks at the rear',
         category: 'men',
         price: '$60',
-        strike: '$100',
-        img: [Men3, Men3s, Men3ss]
+        stroke: '$100',
+        img: [Men3, Men3s, Men3ss],
+        badge: 1,
+        fast: true,
     },
     {
         id: '04',
@@ -738,7 +267,9 @@ export const products = [
         productDesc: 'The Varsity Silver Watch flaunts an embroidery of the official emblem in front, which is referenced in this collection to create a classic appearance and finished with tradition masks at the rear',
         category: 'men',
         price: '$200',
-        img: [Men4, Men4s, Men4ss]
+        img: [Men4, Men4s, Men4ss],
+        badge: 1,
+        fast: true,
     },
     {
         id: '05',
@@ -746,43 +277,51 @@ export const products = [
         productDesc: 'The Adudas Velvet Shoe flaunts an embroidery of the official emblem in front, which is referenced in this collection to create a classic appearance and finished with tradition masks at the rear',
         category: 'men',
         price: '$500',
-        strike: '$1000',
-        img: [Men5, Men5s, Men5ss]
+        stroke: '$1000',
+        img: [Men5, Men5s, Men5ss],
+        badge: 1,
+        fast: true,
     },
     {
         id: '06',
         productName: 'hugo golden watch',
         productDesc: 'The Hugo Glden Watch flaunts an embroidery of the official emblem in front, which is referenced in this collection to create a classic appearance and finished with tradition masks at the rear',
-        category: 'Men',
+        category: 'men',
         price: '$500',
-        strike: '$1000',
-        img: [Men6, Men6s, Men6ss]
+        stroke: '$1000',
+        img: [Men6, Men6s, Men6ss],
+        badge: 1,
+        fast: true,
     },
     {
         id: '07',
         productName: 'hollister ho0die in wine',
         productDesc: 'The Hollister Hoodie flaunts an embroidery of the official emblem in front, which is referenced in this collection to create a classic appearance and finished with tradition masks at the rear',
-        category: 'Men',
+        category: 'men',
         price: '$100',
-        strike: '$300',
-        img: [Men7, Men7s, Men7s]
+        stroke: '$300',
+        img: [Men7, Men7s, Men7s],
+        badge: 1,
+        fast: true,
     },
     {
         id: '08',
         productName: 'Dr.Martens shoe ',
         productDesc: 'The Shoe flaunts an embroidery of the official emblem in front, which is referenced in this collection to create a classic appearance and finished with tradition masks at the rear',
-        category: 'Men',
+        category: 'men',
         price: '$300',
-        strike: '$500',
+        stroke: '$500',
         img: [Men8, Men3s, Men8s]
     },
     {
         id: '09',
         productName: 'chelsea leather boot ',
         productDesc: 'The Chelsea Boot flaunts an embroidery of the official emblem in front, which is referenced in this collection to create a classic appearance and finished with tradition masks at the rear',
-        category: 'Men',
+        category: 'men',
         price: '$300',
-        img: [Men9, Men9s, Men9ss]
+        img: [Men9, Men9s, Men9ss],
+        badge: 1,
+        fast: true,
     },
     {
         id: '',
@@ -790,44 +329,54 @@ export const products = [
         productDesc: 'puma gray hoodie',
         category: 'women',
         price: '$200',
-        strike: '$500',
-        img: [Women1, Women1s, Women1ss]
+        stroke: '$500',
+        img: [Women1, Women1s, Women1ss],
+        badge: 1,
+        fast: true,
     },
     {
         id: '14',
         productName: 'Puma  hoodie in white',
         productDesc: 'The Hoodie flaunts an embroidery of the official emblem in front, which is referenced in this collection to create a classic appearance and finished with tradition masks at the rear',
-        category: 'Women',
+        category: 'women',
         price: '$200',
-        
-        img: [Women2, Women2s, Women2ss]
+
+        img: [Women2, Women2s, Women2ss],
+        badge: 1,
+        fast: true,
     },
     {
         id: '15',
         productName: 'alessi strap heel in green',
         productDesc: 'The strap heel flaunts an embroidery of the official emblem in front, which is referenced in this collection to create a classic appearance and finished with tradition masks at the rear',
-        category: 'Women',
+        category: 'women',
         price: '$200',
-        strike:'$500',
-        
-        img: [Women3, Women3s, Women3ss]
+        stroke: '$500',
+
+        img: [Women3, Women3s, Women3ss],
+        badge: 1,
+        fast: true,
     },
     {
         id: '16',
         productName: 'double breasted suit in fuschia',
         productDesc: 'The suit flaunts an embroidery of the official emblem in front, which is referenced in this collection to create a classic appearance and finished with tradition masks at the rear',
-        category: 'Women',
+        category: 'women',
         price: '$200',
-        img: [Women4, Women4s, Women4ss]
+        img: [Women4, Women4s, Women4ss],
+        badge: 1,
+        fast: true,
     },
     {
         id: '17',
         productName: 'wink green heel sandals',
         productDesc: 'The wink sandals flaunts an embroidery of the official emblem in front, which is referenced in this collection to create a classic appearance and finished with tradition masks at the rear',
-        category: 'Women',
+        category: 'women',
         price: '$200',
-        strike: '$500',
-        img: [Women5, Women5s, Women5ss]
+        stroke: '$500',
+        img: [Women5, Women5s, Women5ss],
+        badge: 1,
+        fast: true,
     },
     {
         id: '18',
@@ -835,17 +384,19 @@ export const products = [
         productDesc: 'The skirt flaunts an embroidery of the official emblem in front, which is referenced in this collection to create a classic appearance and finished with tradition masks at the rear',
         category: 'Women',
         price: '$200',
-        strike: '$500',
+        stroke: '$500',
         img: [Women6, Women6s, Women6ss]
     },
     {
         id: '19',
         productName: 'HIIT seamless bra in grey marl',
         productDesc: 'The wear flaunts an embroidery of the official emblem in front, which is referenced in this collection to create a classic appearance and finished with tradition masks at the rear',
-        category: 'Women',
+        category: 'women',
         price: '$200',
-        strike: '$500',
-        img: [Women7, Women7s, Women7ss]
+        stroke: '$500',
+        img: [Women7, Women7s, Women7ss],
+        badge: 1,
+        fast: true,
     },
     {
         id: '20',
@@ -853,8 +404,10 @@ export const products = [
         productDesc: 'cofee brown dress',
         category: 'women',
         price: '$200',
-        strike: '$500',
-        img: [Women8, Women8s, Women8ss]
+        stroke: '$500',
+        img: [Women8, Women8s, Women8ss],
+        badge: 1,
+        fast: true,
     },
     {
         id: '30',
@@ -862,7 +415,9 @@ export const products = [
         productDesc: 'Puma retaliate trainer in pink',
         category: 'women',
         price: '$200',
-        img: [Women9, Women9s, Women9ss]
+        img: [Women9, Women9s, Women9ss],
+        badge: 1,
+        fast: true,
     },
     {
         id: '010',
@@ -870,7 +425,9 @@ export const products = [
         productDesc: 'tote bag in mushroom print in black',
         category: 'accessories',
         price: '$200',
-        img: [Women10, Women10s, Women10ss]
+        img: [Women10, Women10s, Women10ss],
+        badge: 1,
+        fast: true,
     },
     {
         id: '020',
@@ -878,8 +435,10 @@ export const products = [
         productDesc: 'north face duffel bag in yellow',
         category: 'accessories',
         price: '$200',
-        strike: '$500',
-        img: [Women11, Women11s, Women11ss]
+        stroke: '$500',
+        img: [Women11, Women11s, Women11ss],
+        badge: 1,
+        fast: true,
     },
     {
         id: '030',
@@ -887,17 +446,21 @@ export const products = [
         productDesc: '',
         category: 'accessories',
         price: '$200',
-        strike: '$500',
-        img: [Women12, Women12s, Women12ss]
+        stroke: '$500',
+        img: [Women12, Women12s, Women12ss],
+        badge: 1,
+        fast: true,
     },
     {
         id: '25',
         productName: 'tote bag in mushroom print in black',
         productDesc: 'The tote bag flaunts an embroidery of the official emblem in front, which is referenced in this collection to create a classic appearance and finished with tradition masks at the rear',
-        category: 'Women',
+        category: 'women',
         price: '$200',
-        strike: '$500',
-        img: [Women13, Women13s, Women13ss]
+        stroke: '$500',
+        img: [Women13, Women13s, Women13ss],
+        badge: 1,
+        fast: true,
     },
     {
         id: '26',
@@ -905,29 +468,33 @@ export const products = [
         productDesc: 'The skirt flaunts an embroidery of the official emblem in front, which is referenced in this collection to create a classic appearance and finished with tradition masks at the rear',
         category: 'Women',
         price: '$200',
-        strike: '$500',
-        img: [Women14, Women14s, Women14ss]
+        stroke: '$500',
+        img: [Women14, Women14s, Women14ss],
+        badge: 1,
+        fast: true,
     },
     {
         id: '27',
         productName: 'tiered wrap midi dress',
         productDesc: 'The dress flaunts an embroidery of the official emblem in front, which is referenced in this collection to create a classic appearance and finished with tradition masks at the rear',
-        category: 'Women',
+        category: 'women',
         price: '$200',
-        strike: '$500',
-        img: [Women15, Women15s, Women15s]
+        stroke: '$500',
+        img: [Women15, Women15s, Women15s],
+        badge: 1,
+        fast: true,
     },
     {
         id: '28',
         productName: 'calvin klein leather bag',
         productDesc: 'The dress flaunts an embroidery of the official emblem in front, which is referenced in this collection to create a classic appearance and finished with tradition masks at the rear',
-        category: 'Women',
+        category: 'women',
         price: '$700',
-        strike: '$1000',
-        img: [Men12, Men12s, Men12ss]
+        stroke: '$1000',
+        img: [Men12, Men12s, Men12ss],
+        badge: 1,
+        fast: true,
     },
-   
-    
 
 ]
 
