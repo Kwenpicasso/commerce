@@ -9,12 +9,7 @@ const ProductInfo = () => {
     const [pic, setPic] = useState(0)
     const [quantity, setQuantity] = useState(1)
     
-    // const images =[
-    //     'men1.webp',
-    //     'Men1s.webp',
-    //     'Men1sss.webp'
-
-    // ]
+   
     const { id } = useParams()
 
     
@@ -51,7 +46,7 @@ const ProductInfo = () => {
         <h1 className='mb-5 uppercase text-3xl font-semibold text-nav sm:text-center md:text-center'>{product.productName}</h1>
         <div className='flex gap-3 text-xl font-semibold mb-5 sm:items-center sm:justify-center md:items-center md:justify-center'>
         <h2>{product.price}</h2>
-        <h2 className='text-red-300'><strike>$200</strike></h2>
+        <h2 className='text-red-300'><strike>{product.strike}</strike></h2>
 
         </div>
 
