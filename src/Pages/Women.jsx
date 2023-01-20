@@ -3,7 +3,7 @@ import Footer from '../Components/Footer'
 import FooterLast from '../Components/FooterLast'
 import Navbar from '../Components/Navbar'
 import WomenHeader from '../Components/WomenHeader'
-import Products from '../Components/Products'
+import Products from '../Components/Product'
 import { Female } from '../Data'
 import { useNavigate } from 'react-router-dom'
 const Women = () => {

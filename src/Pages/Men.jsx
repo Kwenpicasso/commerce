@@ -1,7 +1,7 @@
 import React from 'react'
 import Footer from '../Components/Footer'
 import FooterLast from '../Components/FooterLast'
-import Products from '../Components/Products'
+import Products from '../Components/Product'
 import MenHeader from '../Components/MenHeader'
 import Navbar from '../Components/Navbar'
 import { Male } from '../Data'

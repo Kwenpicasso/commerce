@@ -611,7 +611,7 @@ export const products = [
         id: '01',
         productName: 'Adidas Pink Hoodie',
         productDesc: 'The Varsity Adidas Hoodie flaunts an embroidery of the official emblem in front, which is referenced in this collection to create a classic appearance and finished with tradition masks at the rear.',
-        category: 'Men',
+        category: 'men',
         price: '$100',
         strike: '$200',
         img: [Men1, Men1s, Men1sss]
@@ -620,7 +620,7 @@ export const products = [
         id: '02',
         productName: 'New Balance Green Cross Bag',
         productDesc: 'The Varsity New Balance crossed bag flaunts an embroidery of the official emblem in front, which is referenced in this collection to create a classic appearance and finished with tradition masks at the rear',
-        category: 'Men',
+        category: 'men',
         price: '$20',
         img: [Men2, Men2s, Men2ss]
     },
@@ -628,7 +628,7 @@ export const products = [
         id: '03',
         productName: 'Dr.Martens shoe ',
         productDesc: 'The Varsity Shoe flaunts an embroidery of the official emblem in front, which is referenced in this collection to create a classic appearance and finished with tradition masks at the rear',
-        category: 'Men',
+        category: 'men',
         price: '$60',
         strike: '$100',
         img: [Men3, Men3s, Men3ss]
@@ -637,15 +637,15 @@ export const products = [
         id: '04',
         productName: 'Silver watch ',
         productDesc: 'The Varsity Silver Watch flaunts an embroidery of the official emblem in front, which is referenced in this collection to create a classic appearance and finished with tradition masks at the rear',
-        category: 'Men',
+        category: 'men',
         price: '$200',
         img: [Men4, Men4s, Men4ss]
     },
     {
         id: '05',
         productName: 'adidas velvet shoe',
-        productDesc: 'The Adidas Velvet Shoe flaunts an embroidery of the official emblem in front, which is referenced in this collection to create a classic appearance and finished with tradition masks at the rear',
-        category: 'Men',
+        productDesc: 'The Adudas Velvet Shoe flaunts an embroidery of the official emblem in front, which is referenced in this collection to create a classic appearance and finished with tradition masks at the rear',
+        category: 'men',
         price: '$500',
         strike: '$1000',
         img: [Men5, Men5s, Men5ss]
@@ -687,37 +687,9 @@ export const products = [
     },
     {
         id: '10',
-        productName: 'polo coloed shirt',
-        productDesc: 'The Polo Shirt flaunts an embroidery of the official emblem in front, which is referenced in this collection to create a classic appearance and finished with tradition masks at the rear',
-        category: 'Men',
-        price: '$200',
-        strike:'$500',
-        img: [Men10, Men10s, Men10ss]
-    },
-    {
-        id: '11',
-        productName: 'puma shirt in blue',
-        productDesc: 'The Puma Shirt flaunts an embroidery of the official emblem in front, which is referenced in this collection to create a classic appearance and finished with tradition masks at the rear',
-        category: 'Men',
-        price: '$200',
-        strike:'$300',
-        img: [Men11, Men11s, Men11ss]
-    },
-    {
-        id: '12',
-        productName: 'calvin klein leather bag',
-        productDesc: 'The Bag flaunts an embroidery of the official emblem in front, which is referenced in this collection to create a classic appearance and finished with tradition masks at the rear',
-        category: 'Men',
-        price: '$700',
-        strike:'$1000',
-        img: [Men12, Men12s, Men12ss]
-    },
-   
-    {
-        id: '13',
-        productName: 'Puma gray hoodie ',
-        productDesc: 'The puma gray hoodie flaunts an embroidery of the official emblem in front, which is referenced in this collection to create a classic appearance and finished with tradition masks at the rear',
-        category: 'Women',
+        productName: 'Puma hoodie ',
+        productDesc: 'puma gray hoodie',
+        category: 'women',
         price: '$200',
         strike: '$500',
         img: [Women1, Women1s, Women1ss]
@@ -778,43 +750,43 @@ export const products = [
     },
     {
         id: '20',
-        productName: 'coffee brown sleek dress',
-        productDesc: 'The coffee dress flaunts an embroidery of the official emblem in front, which is referenced in this collection to create a classic appearance and finished with tradition masks at the rear',
-        category: 'Women',
+        productName: 'Sleek dress',
+        productDesc: 'cofee brown dress',
+        category: 'women',
         price: '$200',
         strike: '$500',
         img: [Women8, Women8s, Women8ss]
     },
     {
-        id: '21',
-        productName: 'puma retaliate trainers in pink',
-        productDesc: 'The trainers flaunts an embroidery of the official emblem in front, which is referenced in this collection to create a classic appearance and finished with tradition masks at the rear',
-        category: 'Women',
+        id: '30',
+        productName: 'Puma trainers',
+        productDesc: 'Puma retaliate trainer in pink',
+        category: 'women',
         price: '$200',
         img: [Women9, Women9s, Women9ss]
     },
     {
-        id: '22',
-        productName: 'charles keith crossed bag',
-        productDesc: 'The wink sandals flaunts an embroidery of the official emblem in front, which is referenced in this collection to create a classic appearance and finished with tradition masks at the rear',
-        category: 'Women',
+        id: '010',
+        productName: 'tote bag',
+        productDesc: 'tote bag in mushroom print in black',
+        category: 'accessories',
         price: '$200',
         img: [Women10, Women10s, Women10ss]
     },
     {
-        id: '23',
-        productName: 'sleek multi-colored skirt',
-        productDesc: 'The skirt flaunts an embroidery of the official emblem in front, which is referenced in this collection to create a classic appearance and finished with tradition masks at the rear',
-        category: 'Women',
+        id: '020',
+        productName: 'duffel bag',
+        productDesc: 'north face duffel bag in yellow',
+        category: 'accessories',
         price: '$200',
         strike: '$500',
         img: [Women11, Women11s, Women11ss]
     },
     {
-        id: '24',
-        productName: 'curved choker necklae with faux',
-        productDesc: 'The necklace flaunts an embroidery of the official emblem in front, which is referenced in this collection to create a classic appearance and finished with tradition masks at the rear',
-        category: 'Women',
+        id: '030',
+        productName: 'cufflinks and tiebar set',
+        productDesc: '',
+        category: 'accessories',
         price: '$200',
         strike: '$500',
         img: [Women12, Women12s, Women12ss]
