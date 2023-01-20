@@ -28,9 +28,9 @@ const Navbar = () => {
        
        <nav ref={navRef}>
         <ul className='flex gap-5 items-center'>
-          <li className='animate-pulse'><a href=""><Link to='/men'>Men</Link></a></li>
-          <li className='animate-pulse'><a href=""><Link to='/women'>Women</Link></a></li>
-          <li className='animate-pulse'><a href=""><Link to='/accessories'>Accessories</Link></a></li>
+          <li className='animate-pulse'><a href=""><Link to='/products/men'>Men</Link></a></li>
+          <li className='animate-pulse'><a href=""><Link to='/products/women'>Women</Link></a></li>
+          <li className='animate-pulse'><a href=""><Link to='/products/accessories'>Accessories</Link></a></li>
           <div className='nav-btn nav-close-btn' onClick={showNavbar}>
           <CloseIcon/>
            </div>

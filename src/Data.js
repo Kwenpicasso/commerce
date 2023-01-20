@@ -568,7 +568,7 @@ export const products = [
         id: '01',
         productName: 'Adidas Pink Hoodie',
         productDesc: 'The Varsity Adidas Hoodie flaunts an embroidery of the official emblem in front, which is referenced in this collection to create a classic appearance and finished with tradition masks at the rear.',
-        category: 'Men',
+        category: 'men',
         price: '$100',
         strike: '$200',
         img: [Men1, Men1s, Men1sss]
@@ -577,7 +577,7 @@ export const products = [
         id: '02',
         productName: 'New Balance Green Cross Bag',
         productDesc: 'The Varsity New Balance crossed bag flaunts an embroidery of the official emblem in front, which is referenced in this collection to create a classic appearance and finished with tradition masks at the rear',
-        category: 'Men',
+        category: 'men',
         price: '$20',
         img: [Men2, Men2s, Men2ss]
     },
@@ -585,7 +585,7 @@ export const products = [
         id: '03',
         productName: 'Dr.Martens shoe ',
         productDesc: 'The Varsity Shoe flaunts an embroidery of the official emblem in front, which is referenced in this collection to create a classic appearance and finished with tradition masks at the rear',
-        category: 'Men',
+        category: 'men',
         price: '$60',
         strike: '$100',
         img: [Men3, Men3s, Men3ss]
@@ -594,7 +594,7 @@ export const products = [
         id: '04',
         productName: 'Silver watch ',
         productDesc: 'The Varsity Silver Watch flaunts an embroidery of the official emblem in front, which is referenced in this collection to create a classic appearance and finished with tradition masks at the rear',
-        category: 'Men',
+        category: 'men',
         price: '$200',
         img: [Men4, Men4s, Men4ss]
     },
@@ -602,7 +602,7 @@ export const products = [
         id: '05',
         productName: 'adidas velvet shoe',
         productDesc: 'The Adudas Velvet Shoe flaunts an embroidery of the official emblem in front, which is referenced in this collection to create a classic appearance and finished with tradition masks at the rear',
-        category: 'Men',
+        category: 'men',
         price: '$500',
         strike: '$1000',
         img: [Men4, Men4s, Men4ss]
@@ -611,7 +611,7 @@ export const products = [
         id: '10',
         productName: 'Puma hoodie ',
         productDesc: 'puma gray hoodie',
-        category: 'Women',
+        category: 'women',
         price: '$200',
         img: [Women1, Women2,]
     },
@@ -619,7 +619,7 @@ export const products = [
         id: '20',
         productName: 'Sleek dress',
         productDesc: 'cofee brown dress',
-        category: 'Women',
+        category: 'women',
         price: '$200',
         img: [Women8]
     },
@@ -627,7 +627,7 @@ export const products = [
         id: '30',
         productName: 'Puma trainers',
         productDesc: 'Puma retaliate trainer in pink',
-        category: 'Women',
+        category: 'women',
         price: '$200',
         img: [Women9]
     },
@@ -635,7 +635,7 @@ export const products = [
         id: '010',
         productName: 'tote bag',
         productDesc: 'tote bag in mushroom print in black',
-        category: 'Accessories',
+        category: 'accessories',
         price: '$200',
         img: [Women13]
     },
@@ -643,7 +643,7 @@ export const products = [
         id: '020',
         productName: 'duffel bag',
         productDesc: 'north face duffel bag in yellow',
-        category: 'Accessories',
+        category: 'accessories',
         price: '$200',
         img: [Acc6]
     },
@@ -651,7 +651,7 @@ export const products = [
         id: '030',
         productName: 'cufflinks and tiebar set',
         productDesc: '',
-        category: 'Accessories',
+        category: 'accessories',
         price: '$200',
         img: [Acc8]
     },
