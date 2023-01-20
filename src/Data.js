@@ -607,6 +607,105 @@ export const Access = [
 ]
 
 export const products = [
+     {
+        id: '01',
+        img: Men1,
+        title: 'adidas hoodie in pink',
+        price: '$100',
+        stroke: '$200',
+        badge: 1
+    },
+
+    {
+        id: '02',
+        img: Men2,
+        title: 'cross bag in Green',
+        price: '$20',
+        fast: true
+
+    },
+    {
+        id: '03',
+        img: Men3,
+        title: 'Dr.Martens shoe in Black',
+        price: '$60',
+        stroke: '$100',
+        badge: 1,
+
+    },
+    {
+        id: '04',
+        img: Men4,
+        title: 'Silver watch',
+        price: '$200',
+        fast: true
+    },
+
+    {
+        id: '05',
+        img: Men5,
+        title: 'Adidas velvet shoe',
+        price: '$500',
+        stroke: '$1000',
+        badge: 1
+    },
+    {
+        id: '06',
+        img: Men6,
+        title: 'Hugo golden watch',
+        price: '$500'
+    },
+
+    {
+        id: '07',
+        img: Men7,
+        title: 'hollister hoodie in wine',
+        price: '$100',
+        stroke: '$300',
+        badge: 1,
+        fast: true
+    },
+    {
+        id: '08',
+        img: Men8,
+        title: 'Dr. Martens shoe in white',
+        price: '$300',
+        stroke: '$500',
+        badge: 1,
+        fast: true
+    },
+    {
+        id: '09',
+        img: Men9,
+        title: 'chelsea leather boot',
+        price: '$300'
+    },
+
+    {
+        id: '10',
+        img: Men10,
+        title: 'polo colored shirt',
+        price: '$200',
+        stroke: '$500',
+        badge: 1
+    },
+    {
+        id: '11',
+        img: Men11,
+        title: 'puma shirt in blue',
+        price: '$200',
+        stroke: '$300',
+        badge: 1,
+        fast: true
+    },
+    {
+        id: '12',
+        img: Men12,
+        title: 'calvin klein leather bag',
+        price: '$700',
+        stroke: '$1000',
+        badge: 1
+    }
     {
         id: '01',
         productName: 'Adidas Pink Hoodie',
@@ -686,7 +785,7 @@ export const products = [
         img: [Men9, Men9s, Men9ss]
     },
     {
-        id: '10',
+        id: '',
         productName: 'Puma hoodie ',
         productDesc: 'puma gray hoodie',
         category: 'women',

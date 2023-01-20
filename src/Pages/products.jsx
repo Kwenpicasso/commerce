@@ -20,7 +20,7 @@ const Products = filteredProducts;
   return (
     <div className='w-full h-screen'>
         <Navbar/>
-        <MenHeader/>
+        <MenHeader />
       <div className='flex justify-around flex-wrap w-[100%] px-10 sm:px-0 md:px-0 py-6'>
         {Products.map((item) => (
             <Product onClick={() => navigate(`/productInfo/${item.id}`)} data={item} key={item.id}/>
