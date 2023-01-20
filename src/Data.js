@@ -607,13 +607,14 @@ export const Access = [
 ]
 
 export const products = [
-     {
-        id: '01',
+    {
+        id: '1',
         img: Men1,
         title: 'adidas hoodie in pink',
         price: '$100',
         stroke: '$200',
-        badge: 1
+        badge: 1, 
+    
     },
 
     {
@@ -705,14 +706,18 @@ export const products = [
         price: '$700',
         stroke: '$1000',
         badge: 1
-    }
+    },
+    
     {
-        id: '01',
+        id: '1',
         productName: 'Adidas Pink Hoodie',
         productDesc: 'The Varsity Adidas Hoodie flaunts an embroidery of the official emblem in front, which is referenced in this collection to create a classic appearance and finished with tradition masks at the rear.',
         category: 'men',
         price: '$100',
         strike: '$200',
+        title: 'adidas hoodie in pink',
+        stroke: '$200',
+        badge: 1,
         img: [Men1, Men1s, Men1sss]
     },
     {
@@ -721,7 +726,9 @@ export const products = [
         productDesc: 'The Varsity New Balance crossed bag flaunts an embroidery of the official emblem in front, which is referenced in this collection to create a classic appearance and finished with tradition masks at the rear',
         category: 'men',
         price: '$20',
-        img: [Men2, Men2s, Men2ss]
+        img: [Men2, Men2s, Men2ss],
+        title: 'cross bag in Green',
+        fast: true
     },
     {
         id: '03',
@@ -730,7 +737,11 @@ export const products = [
         category: 'men',
         price: '$60',
         strike: '$100',
-        img: [Men3, Men3s, Men3ss]
+        img: [Men3, Men3s, Men3ss],
+        title: 'Dr.Martens shoe in Black',
+        price: '$60',
+        stroke: '$100',
+        badge: 1,
     },
     {
         id: '04',
@@ -738,7 +749,10 @@ export const products = [
         productDesc: 'The Varsity Silver Watch flaunts an embroidery of the official emblem in front, which is referenced in this collection to create a classic appearance and finished with tradition masks at the rear',
         category: 'men',
         price: '$200',
-        img: [Men4, Men4s, Men4ss]
+        img: [Men4, Men4s, Men4ss],
+        title: 'Silver watch',
+        price: '$200',
+        fast: true
     },
     {
         id: '05',
@@ -747,7 +761,12 @@ export const products = [
         category: 'men',
         price: '$500',
         strike: '$1000',
-        img: [Men5, Men5s, Men5ss]
+        img: [Men5, Men5s, Men5ss],
+        title: 'Adidas velvet shoe',
+        price: '$500',
+        stroke: '$1000',
+        badge: 1,
+        
     },
     {
         id: '06',
@@ -756,7 +775,9 @@ export const products = [
         category: 'Men',
         price: '$500',
         strike: '$1000',
-        img: [Men6, Men6s, Men6ss]
+        img: [Men6, Men6s, Men6ss],
+        title: 'Hugo golden watch',
+        
     },
     {
         id: '07',
