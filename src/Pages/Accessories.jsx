@@ -1,7 +1,7 @@
 import React from 'react'
 import Footer from '../Components/Footer'
 import FooterLast from '../Components/FooterLast'
-import Products from '../Components/Products'
+import Products from '../Components/Product'
 import AccessoriesHeader from '../Components/AccessoriesHeader'
 import Navbar from '../Components/Navbar'
 import { Access } from '../Data'
